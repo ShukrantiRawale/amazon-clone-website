@@ -1,0 +1,500 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+     <script src="https://kit.fontawesome.com/433b24fc29.js" crossorigin="anonymous"></script>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+    <title>Amazon</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="navlogo">
+          <div class="logo border"></div>
+        </div>
+        <div class="navadd border">
+          <p class="addfirst icon" >Deliver to</p>
+          <div class="addicon">
+            <i class="fa-solid fa-location-dot icon"> <iframe src="https://maps.app.goo.gl/1Xn8x32AcFH2tHSn8" width="10" height="10"  frameborder="0" allowfullscreen></iframe></i>
+            <p class="addsecond icon">India</p>
+          </div>
+        </div>
+        <div class="nav-search">
+            <select class="search-option1">
+                <option value="All" class="search-option2">All</option>
+                <option value="All" class="search-option2">Alexa skill</option>
+                <option value="All" class="search-option2">Amazon skin</option>
+                <option value="All" class="search-option2">App & game</option>
+                <option value="All" class="search-option2">baby</option>
+                <option value="All" class="search-option2">book</option>
+                <option value="All" class="search-option2">kindle store</option>
+                <option value="All" class="search-option2">music</option>
+                <option value="All" class="search-option2">amzon fresh</option>
+                <option value="All" class="search-option2">prime video</option>
+                <option value="All" class="search-option2">subscribe save</option>
+                <option value="All" class="search-option2">car motor bike</option>
+                <option value="All" class="search-option2">software</option>
+                <option value="All" class="search-option2">tool &home improvement</option>
+                <option value="All" class="search-option2">musical insrument</option>
+                <option value="All" class="search-option2">pet supply</option>
+                <option value="All" class="search-option2">clothing accessries</option>
+                <option value="All" class="search-option2">spots</option>
+            </select>
+            <input type="text" placeholder="Search Amazon" class="search-input">
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          
+           </div>
+       
+      <div class="dropdown">
+    <ul class="dropdown-content">       
+    </ul>
+</div>
+
+    <div class="category dropdown">
+     <p><img src= "C:\Users\rawal\OneDrive\Pictures\Screenshots\Screenshot 2024-12-11 225044.png">EN <span class="arrow">&#9662;</span></p>
+      <div class="dropdown-content">
+        <li><a href="#"><input type="radio" id="r1" name="lang"><label for="r1"></label>English</label></a></li>
+        <li><a href="#"><input type="radio" id="r1" name="lang"><label for="r1"></label>हिन्दी - HI</label></a></li>
+        <li><a href="#"><input type="radio" id="r1" name="lang"><label for="r1"></label>தமிழ் - TA</label></a></li>
+        <li><a href="#"><input type="radio" id="r1" name="lang"><label for="r1"></label>తెలుగు - TE</label></a></li>
+        <li><a href="#"><input type="radio" id="r1" name="lang"><label for="r1"></label>ಕನ್ನಡ - KN</label></a></li>
+        <li><a href="#"><input type="radio" id="r1" name="lang"><label for="r1"></label>മലയാളം - ML</label></a></li>
+        <li><a href="#"><input type="radio" id="r1" name="lang"><label for="r1"></label>বাংলা - BN</label></a></li>
+        <li><a href="#"><input type="radio" id="r1" name="lang"><label for="r1"></label>मराठी - MR</label></a></li>
+        <li><a href="#"><input type="radio" id="r1" name="lang"><label for="r1"></label>Learn more</label></a></li>
+      </div>
+    </div>
+    <style>
+
+    input[type="radio"]{display:none;}
+    label{display:inline-block;padding:10px;border-radius:50%; border:2px solid #ccc;cursor:pointer;}
+   label:hover{border-color:#999;}
+   input[type="radio"]:checked+label{background-color:#f0f0f0;border-color:#ccc;}
+
+   label {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    cursor: pointer;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 20px;
+}
+   </style>
+           
+           
+             <div class="sign border">
+            <p class="hello">
+                
+            </p>
+            <div class=""> 
+                <option value="Account"></option>
+            </div>
+            <div>
+            </div>
+           </div>
+             <div class="category dropdown">
+               <p>Hello, sign in <br>
+            Account & Lists <span class="arrow">&#9662;</span></p>
+            <div class="dropdown-content">
+    
+                <a href="https://www.amazon.in/ap/register?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2F%3F_encoding%3DUTF8%26adgrpid%3D155259813593%26gad_source%3D1%26hvadid%3D713930225169%26hvdev%3Dc%26hvdvcmdl%3D%26hvlocint%3D%26hvlocphy%3D9301354%26hvnetw%3Dg%26hvpone%3D%26hvpos%3D%26hvptwo%3D%26hvqmt%3De%26hvrand%3D6421402502370055598%26hvtargid%3Dkwd-64107830%26hydadcr%3D14452_2402225%26ref%3Dpd_sl_5szpgfto9i_e%26tag%3Dgooghydrabk1-21%26ref_%3Dnav_newcust&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0"><img src="C:\Users\rawal\OneDrive\Pictures\Screenshots\Screenshot 2024-12-12 102923.png"></a>
+            </div>
+        </div>
+           <div class="box6 border">
+            <p class="return">
+              Returns
+            </p>
+            <p class="order">
+              & Orders
+            </p>
+           </div>
+           <div class="cart border">
+            <i class="fa-solid fa-cart-shopping"></i>
+            cart
+           </div>
+      </div>
+      <div class="second-nav">
+        <div class="">
+ 
+   <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      overflow-x: hidden;
+    }
+
+    /* Sidebar styles */
+    .sidebar {
+      width: 300px;
+      height: 100vh;
+      background-color: #ffffff;
+      border-right: 1px solid #dcdcdc;
+      overflow-y: auto;
+      position: fixed;
+      top: 0;
+      left: -300px;
+      box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+      transition: left 0.3s ease-in-out;
+    }
+
+    .sidebar.active {
+      left: 0;
+    }
+
+    .sidebar_header {
+      background-color: #232f3e;
+      color: #ffffff;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .sidebar_header i {
+      font-size: 20px;
+    }
+
+    .sidebar_header span {
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    .sidebar_section {
+      padding: 20px 15px;
+      border-bottom: 1px solid #e6e6e6;
+    }
+
+    .section_title {
+      font-weight: 700;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    .sidebar_link {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 0;
+      font-size: 14px;
+      color: #333333;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .sidebar_link:hover {
+      color: #007185;
+    }
+
+    .sidebar_link i {
+      color: #007185;
+    }
+
+    .toggle_button {
+      position: fixed;
+      top: 15px;
+      left: 15px;
+      z-index: 1000;
+      background-color: #232f3e;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .toggle_button i {
+      font-size: 18px;
+    }
+
+
+
+    .toggle_button {
+    position: fixed;
+    top: 60px;
+    left: 15px;
+    z-index: 1000;
+    background-color: #232f3e;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+;
+    align-items: center;
+    gap: 5px;
+}
+  </style>
+</head>
+<body>
+  <!-- Sidebar -->
+  <div class="sidebar" id="sidebar">
+    <!-- Header -->
+    <div class="sidebar_header">
+      <i class="fa-solid fa-user-circle"></i>
+      <span>Hello, sign in</span>
+    </div>
+
+    <!-- Trending Section -->
+    <div class="sidebar_section">
+      <div class="section_title">Trending</div>
+      <div class="sidebar_link">Best Sellers</div>
+      <div class="sidebar_link">New Releases</div>
+      <div class="sidebar_link">Movers and Shakers</div>
+    </div>
+
+    <!-- Digital Content Section -->
+    <div class="sidebar_section">
+      <div class="section_title">Digital Content and Devices</div>
+      <div class="sidebar_link">
+        Amazon miniTV - FREE entertainment <i class="fa-solid fa-angle-right"></i>
+      </div>
+      <div class="sidebar_link">
+        Echo & Alexa <i class="fa-solid fa-angle-right"></i>
+      </div>
+      <div class="sidebar_link">
+        Fire TV <i class="fa-solid fa-angle-right"></i>
+      </div>
+      <div class="sidebar_link">
+        Kindle E-Readers & eBooks <i class="fa-solid fa-angle-right"></i>
+      </div>
+      <div class="sidebar_link">
+        Audible Audiobooks <i class="fa-solid fa-angle-right"></i>
+      </div>
+      <div class="sidebar_link">
+        Amazon Prime Video <i class="fa-solid fa-angle-right"></i>
+      </div>
+      <div class="sidebar_link">
+        Amazon Prime Music <i class="fa-solid fa-angle-right"></i>
+      </div>
+    </div>
+
+    <!-- Shop by Category Section -->
+    <div class="sidebar_section">
+      <div class="section_title">Shop by Category</div>
+      <div class="sidebar_link">
+        Mobiles, Computers <i class="fa-solid fa-angle-right"></i>
+      </div>
+      <div class="sidebar_link">
+        TV, Appliances, Electronics <i class="fa-solid fa-angle-right"></i>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- Toggle Button -->
+  <button class="toggle_button" id="toggleButton">
+    <i class="fa-solid fa-bars"></i>
+    All
+  </button>
+
+  <!-- JavaScript -->
+</body>
+
+         <p class="list"> <a href=""></a></p>
+        </div>
+        <div class="panel-ops">
+          <p class="ptag border">fresh</p>
+          <p class="ptag border">mx players</p>
+          <p class="ptag border"> Sell</p>
+          <p class="ptag border">Best sellers</p>
+          <p class="ptag border">Today Deals</p> 
+          <p class="ptag border">mobiles</p>
+          <p class="ptag border"> Customer Service</p>
+          <p class="ptag border">Electronics</p>
+           
+          <div class="category dropdown">
+            <p>Prime <span class="arrow">&#9662;</span></p>
+            <div class="dropdown-content">
+    
+                <a href="https://www.amazon.in/amazonprime?ref=in-pr-tryprime-unrec-multi-benefit"><img src="C:\Users\rawal\OneDrive\Pictures\Screenshots\Screenshot 2024-12-11 123049.png"></a>
+
+            </div>
+        </div>
+
+          <p class="ptag border">home & kichen</p>
+          <p class="ptag border"> Amazon pay</p>
+            <p class="ptag border">New Realese</p>
+         
+    
+        </div>
+        <div class="deals">
+          <p>Computer</p>
+        </div>
+      </div>
+    </header>
+   
+   <main>
+      <div class="main">
+        <div class="msg">
+          <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="https://www.amazon.in/?&tag=googhydrabk1-21&ref=pd_sl_5szpgfto9i_e&adgrpid=155259813593&hvpone=&hvptwo=&hvadid=713930225169&hvpos=&hvnetw=g&hvrand=5198152415315700627&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9301354&hvtargid=kwd-64107830&hydadcr=14452_2402225&gad_source=1">Click here to go to amazon.in</a></p>
+        </div>
+      </div>
+      <div class="shop">
+        <div class="shop1 box">
+          <div class="box1-content">
+          <h2>Toys Under $30</h2>
+          <div class="box1-img" style="background-image: url('C:/Users/rawal/OneDrive/Pictures/Screenshots/Screenshot 2024-12-11 110434.png')"></div>
+          <p><a href="#">See of all offers </a></p>
+        </div>
+        </div>
+        <div class="shop2 box">
+          <div class="box1-content">
+            <h2>Deals & Promotions</h2>
+            <div class="box1-img" style="background-image: url('C:/Users/rawal/OneDrive/Pictures/Screenshots/Screenshot 2024-12-11 112142.png')"></div>
+            <p><a href="#">Explore all</a></p>
+          </div>
+        </div>
+        <div class="shop3 box">
+          <div class="box1-content">
+            <h2>Health & Personal Care</h2>
+            <div class="box1-img" style="background-image: url('C:/Users/rawal/OneDrive/Pictures/Screenshots/Screenshot 2024-12-11 112327.png');"></div>
+            <p><a href="#">Explore all</a></p>
+          </div>
+        </div>
+        <div class="shop4 box">
+          <div class="box1-content">
+            <h2>New arrivals in Toys</h2>
+            <div class="box1-img" style="background-image: url('C:/Users/rawal/OneDrive/Pictures/Screenshots/Screenshot 2024-12-11 112506.png');"></div>
+            <p><a href="#">Shop now</a></p>
+          </div>
+        </div>        <div class="shop1 box">
+          <div class="box1-content">
+          <h2>For your Fitness Needs</h2>
+          <div class="box1-img" style="background-image: url('C:/Users/rawal/OneDrive/Pictures/Screenshots/Screenshot 2024-12-11 112630.png');"></div>
+          <p><a href="#">See of all offers </a></p>
+        </div>
+        </div>
+        <div class="shop2 box">
+          <div class="box1-content">
+            <h2>Kindle E readers</h2>
+            <div class="box1-img" style="background-image: url('C:/Users/rawal/OneDrive/Pictures/Screenshots/Screenshot 2024-12-11 112639.png');"></div>
+            <p><a href="#">See more </a></p>
+          </div>
+        </div>
+        <div class="shop3 box">
+          <div class="box1-content">
+            <h2>Home refresh ideas</h2>
+            <div class="box1-img" style="background-image: url('C:/Users/rawal/OneDrive/Pictures/Screenshots/Screenshot 2024-12-11 113341.png');"></div>
+            <p><a href="#">See more</a></p>
+          </div>
+        </div>
+        <div class="shop4 box">
+          <div class="box1-content">
+            <h2>Shop Laptops & Tablets</h2>
+            <div class="box1-img" style="background-image: url('C:/Users/rawal/OneDrive/Pictures/Screenshots/Screenshot 2024-12-11 112657.png');"></div>
+            <p><a href="#">See more</a></p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+   <footer>
+      <div class="firstpanel">
+        Back to top
+      </div>
+      <div class="secondpanel">
+        <ul>
+         <p>Get to Know Us</p>
+         <a>Careers</a>
+         <a>Blog</a>
+         <a>About Amazon</a>
+         <a>Investor Relations</a>
+         <a>Amazon Devices</a>
+         <a>Amazon Science</a>
+        </ul>
+        <ul>
+          <p>Make Money with Us</p>
+          <a>Sell products on Amazon</a>
+          <a>Sell on Amazon Business</a>
+          <a>Sell apps on Amazon</a>
+          <a>Become an Affiliate</a>
+          <a>Self-Publish with Us</a>
+          <a>Host an Amazon Hub</a>
+          <a>See More Make Money with Us</a>
+         </ul>
+         <ul>
+         <p>Amazon Payment Products</p>
+         <a>Amazon Business Card</a>
+         <a>Shop with Points</a>
+         <a>Reload Your Balance</a>
+         <a>Amazon Currency Converter</a>
+        </ul>
+          <ul>
+          <p>Let Us Help You</p>
+          <a>Amazon and COVID-19</a>
+          <a>Your Account</a>
+          <a>Your Orders</a>
+          <a>Shipping Rates & Policies</a>
+          <a>Returns & Replacements</a>
+          <a>Manage Your Content and Devices</a>
+          <a>Amazon Assistant</a>
+          <a>Help</a>
+         </ul>
+      </div>
+
+      <div class="thirdpanel">
+        <div class="logo"></div>
+        <div class="select-op">
+        <select name="" id="" class="sele">
+          <option value="En">English</option>
+        </select>
+        <select name="" id="" class="sele">
+          <option value="1">$ USD - U.S. Dollar</option>
+        </select>
+        
+        <select name="" id="" class="sele">
+          <option value="4"> United states</option>
+        </select>
+        </div>
+      </div>
+
+
+      <div class="panel4">
+        <div class="page">
+          <a href="">Conditions of Use</a>
+            <a href="">Privacy Notice</a>
+            <a href="">Your Ads Privacy Choices</a>
+        </div>
+        <div class="copyright">
+          © 1996-2023, Amazon.com, Inc. or its affiliates
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+ <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const sidebar = document.getElementById("sidebar");
+      const toggleButton = document.getElementById("toggleButton");
+
+      toggleButton.addEventListener("click", () => {
+        sidebar.classList.toggle("active");
+      });
+    });
+  </script>
